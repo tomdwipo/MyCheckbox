@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyCheckbox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title">Do you Have these pets ?</string>
+    <string name="checkbox_dog">Dog</string>
+    <string name="checkbox_cat">Cat</string>
+    <string name="checkbox_chicken">Chicken</string>
+    <string name="showButton">show</string>
+    <string name="textviewShow">Status is:</string>
+</resources>
