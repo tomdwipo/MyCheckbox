@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.append(checkBoxDog.getText().toString() + "status is: "+ checkBoxDog.isChecked());
-                stringBuilder.append(checkBoxCat.getText().toString()+ "status is :" +checkBoxCat.isChecked());
-                stringBuilder.append(checkBoxChicken.getText().toString() + "status is :" +checkBoxChicken.isChecked());
+                stringBuilder.append(checkBoxDog.getText().toString() + " status is: "+ checkBoxDog.isChecked()+"\n");
+                stringBuilder.append(checkBoxCat.getText().toString()+ " status is :" +checkBoxCat.isChecked()+"\n");
+                stringBuilder.append(checkBoxChicken.getText().toString() + " status is :" +checkBoxChicken.isChecked()+"\n");
                 showTextview.setText(stringBuilder);
             }
         });
